@@ -1,0 +1,41 @@
+*,
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+p {
+	padding: 1.75rem 0;
+}
+
+h1 {
+	color: rgb(100%, 100%, 100%);
+	text-align: center;
+	background-color: rgb(0, 0, 0);
+}
+.hero1 {
+	background: url("img/hero1.jpg") no-repeat fixed
+		center/cover;
+	height: 120vh;
+}
+
+.hero2 {
+	background: url("img/hero3.jpg") no-repeat fixed
+		center/cover;
+	height: 120vh;
+}
+.hero3 {
+	background: url("img/hero2.jpg") no-repeat fixed
+		center/cover;
+	height: 120vh;
+}
+
+footer > h2 {
+	text-align: center;
+	color: rgb(100%, 100%, 100%);
+	background-color: rgb(0, 0, 0);
+}
